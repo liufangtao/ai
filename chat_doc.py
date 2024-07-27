@@ -54,7 +54,7 @@ async def on_chat_start():
     cl.user_session.set("qa", qa)
 
 
-# 当收到消息时，chainlit会调用这个装饰过的函数
+# 当收到消息时，chainlit会调用这个装饰过的  函数
 @cl.on_message
 async def on_message(message: cl.Message):
     # 从用户会话中获取RetrievalQA对象
