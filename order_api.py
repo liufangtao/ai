@@ -21,7 +21,7 @@ def search_order(input: str) -> str:
     if len(result) == 0:
         return f"对不起，根据 {order_number} 没有找到您的订单"
     return result
-    # 调用订单查询接口（内部系统）
+    # 调用订单查询接口（内部系统）----
     # response = requests.get(f"http://127.0.0.1:3000/orders?order_number={order_number}")
     # return response.json()
 
